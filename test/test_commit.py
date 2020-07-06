@@ -1,11 +1,11 @@
 import sys
 
 
-def addition(a: int, b: int):
+def my_add(a: int, b: int):
     return a + b
 
 
 if __name__ == "__main__":
-    num1 = sys.argv[0]
-    num2 = sys.argv[1]
-    print(addition(int(num1), int(num2)))
+    num1 = int(sys.argv[1])
+    num2 = int(sys.argv[2])
+    print(my_add(num1, num2))
